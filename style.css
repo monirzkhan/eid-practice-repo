@@ -1,0 +1,213 @@
+body {
+    margin: 0px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.background {
+    background-image: url(images/cow-hut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-text {
+    color: white;
+    padding-top: 12%;
+    padding-bottom: 13%;
+    padding-left: 15%;
+    padding-right: 45%;
+    background-image: linear-gradient(to right,
+            rgba(10, 10, 10, 0.938),
+            rgba(0, 0, 0, .7),
+            rgba(0, 0, 0, 0.1));
+}
+
+.bg-text h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.bg-text a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 30px;
+    background-color: #EF233C;
+    border-radius: 10px;
+}
+
+.explore {
+    display: flex;
+    position: relative;
+
+}
+
+.depend {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.depend h1 {
+    font-size: 3em;
+    font-weight: bold;
+
+}
+
+.depend a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 30px;
+    background-color: #EF233C;
+    border-radius: 10px;
+}
+
+#text {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.depend img {
+    width: 456px;
+    height: 477px;
+}
+#overlay {
+    width: 112px;
+    height: 112px;
+    position: absolute;
+    right: 290px;
+    top:240px;
+}
+
+.tasbih {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+}
+
+.tasbih h1 {
+    font-size: 3em;
+    font-weight: bold;
+
+}
+
+.tasbih a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 30px;
+    background-color: #EF233C;
+    border-radius: 10px;
+}
+
+#survive {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tasbih img {
+    width: 456px;
+    height: 477px;
+    padding-left: 25%;
+
+}
+
+article {
+    text-align: center;
+    margin-top: 5%;
+}
+
+article h1 {
+    font-size: 3em;
+}
+
+.donate-help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5%;
+
+
+
+}
+
+.help {
+    width: 30%;
+    background-color: #FEF4F5;
+    margin: 10px;
+    padding: 15px 15px;
+    border-radius: 10px;
+
+}
+
+.help img {
+    margin: 60px 30px;
+    float: left;
+}
+
+.prayer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.prayer img {
+    margin: 10px;
+}
+
+.extend {
+    text-align: center;
+    margin: 0px 300px;
+    margin-bottom: 17%;
+    margin-top: 5%;
+}
+
+.extend h1 {
+    font-size: 3em;
+}
+
+.donate-zakat {
+    display: flex;
+    justify-content: center;
+
+}
+
+.love {
+    width: 24%;
+    border: 1px solid silver;
+    margin: 10px;
+    padding: 19px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.love img {
+    position: absolute;
+    right: ;
+    left: -1px;
+    bottom: 175px;
+
+}
+.love a {
+    
+    font-weight: 700;
+    color: #EF233C;
+    
+}
+footer {
+    height: 170px;
+    background-color: black;
+    text-align: center;
+}
+footer h1 {
+    color: #EF233C;
+    padding: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer small {
+    color: white;
+}
