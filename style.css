@@ -12,28 +12,100 @@ body {
 
 }
 
+nav>ul {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+nav li{
+    list-style: none;
+
+}
+nav li a{
+    text-decoration: none;
+    color: #EF233C;
+}
+nav li a:hover{
+    padding: 8px;
+    color: black;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+}
+
+nav>ul>li>ul{
+    list-style: none;
+    display: none;
+    position: absolute;
+
+}
+
+nav>ul>li:hover ul {
+    display: block;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+}
+
+
+nav>ul>li>ul>li {
+    padding: 5px;
+
+}
+.arrow {
+    height: 8px;
+    width: 8px;
+    margin-left: 5px;
+    border: 3px solid #EF233C;
+    display: inline-block;
+    border-left: none;
+    border-bottom: none;
+    gap: 5px;
+    position: relative;
+    transform: rotateZ(135deg) translate(0, 4px);
+}
+
+
+
 .bg-text {
     color: white;
-    padding-top: 12%;
+    padding-top: 3%;
     padding-bottom: 13%;
-    padding-left: 15%;
-    padding-right: 45%;
+    padding-left: 12%;
+    padding-right: 30%;
     background-image: linear-gradient(to right,
             rgba(10, 10, 10, 0.938),
             rgba(0, 0, 0, .7),
             rgba(0, 0, 0, 0.1));
+    
 }
 
 .bg-text h1 {
     font-size: 4em;
     font-weight: bold;
+    padding-right: 15%;
+    padding-top: 10%;
+}
+.bg-text p {
+    padding-right: 15%;
+    
 }
 
-.bg-text a {
+#anchor {
     text-decoration: none;
     color: aliceblue;
     padding: 15px 30px;
     background-color: #EF233C;
+    border-radius: 10px;
+}
+
+#anchor:hover {
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    background-image: linear-gradient(orange, tomato);
     border-radius: 10px;
 }
 
@@ -64,6 +136,14 @@ body {
     border-radius: 10px;
 }
 
+.depend a:hover {
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 10px;
+}
+
 #text {
     padding-left: 10%;
     padding-right: 5%;
@@ -73,12 +153,13 @@ body {
     width: 456px;
     height: 477px;
 }
+
 #overlay {
     width: 112px;
     height: 112px;
     position: absolute;
     right: 290px;
-    top:240px;
+    top: 240px;
 }
 
 .tasbih {
@@ -100,6 +181,14 @@ body {
     color: aliceblue;
     padding: 15px 30px;
     background-color: #EF233C;
+    border-radius: 10px;
+}
+
+.tasbih a:hover {
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    background-image: linear-gradient(orange, tomato);
     border-radius: 10px;
 }
 
@@ -129,9 +218,34 @@ article h1 {
     flex-wrap: wrap;
     justify-content: center;
     margin: 5%;
+}
 
+#frame-one:hover {
+    padding: 2%;
+    border: 1px solid orangered;
+    background-color: bisque;
+    color: grey;
+}
 
+#frame-two:hover {
+    padding: 2%;
+    border: 1px solid orangered;
+    background-color: bisque;
+    color: grey;
+}
 
+#frame-three:hover {
+    padding: 2%;
+    border: 1px solid orangered;
+    background-color: bisque;
+    color: grey;
+}
+
+#frame-four:hover {
+    padding: 2%;
+    border: 1px solid orangered;
+    background-color: bisque;
+    color: grey;
 }
 
 .help {
@@ -187,27 +301,43 @@ article h1 {
 
 .love img {
     position: absolute;
-    right: ;
     left: -1px;
     bottom: 175px;
 
 }
+
 .love a {
-    
+
     font-weight: 700;
     color: #EF233C;
-    
+
 }
+
+.love a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+}
+
 footer {
     height: 170px;
     background-color: black;
     text-align: center;
 }
+
 footer h1 {
     color: #EF233C;
     padding: 40px;
     font-family: 'Lobster', cursive;
 }
+
+footer h1:hover {
+    color: #faf8f8;
+
+}
+
 footer small {
     color: white;
 }
